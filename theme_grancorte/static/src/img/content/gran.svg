@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="150mm"
+   height="28mm"
+   viewBox="0 0 150 28"
+   version="1.1"
+   id="svg7263"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="gran.svg">
+  <defs
+     id="defs7257" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-110"
+     inkscape:cy="560"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7260">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-269)">
+    <g
+       id="g80"
+       transform="matrix(0.54495793,0,0,-0.54495793,-39.697986,1586.3499)">
+      <text
+         transform="matrix(1,0,0,-1,77.0773,2387.53)"
+         style="font-variant:normal;font-weight:bold;font-size:41.52999878px;font-family:Montserrat;-inkscape-font-specification:Montserrat-Bold;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text84">
+        <tspan
+           x="0 30.358597 60.883144 92.695129"
+           y="0"
+           sodipodi:role="line"
+           id="tspan82">GRAN</tspan>
+      </text>
+      <text
+         transform="matrix(1,0,0,-1,203.3283,2387.53)"
+         style="font-variant:normal;font-weight:500;font-size:41.52999878px;font-family:Montserrat;-inkscape-font-specification:Montserrat-Medium;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text88">
+        <tspan
+           x="0 27.741791 60.135143 89.912094 113.45937"
+           y="0"
+           sodipodi:role="line"
+           id="tspan86">CORTE</tspan>
+      </text>
+      <text
+         transform="matrix(1,0,0,-1,136.8592,2366.2788)"
+         style="font-variant:normal;font-weight:normal;font-size:14.71500015px;font-family:Montserrat;-inkscape-font-specification:Montserrat-Regular;writing-mode:lr-tb;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         id="text92">
+        <tspan
+           x="0 11.311332 23.020704 31.830473 44.848835 56.763687 63.95932 74.696693 84.918968 96.833809 103.81898 115.73381 127.13342 136.13498 147.84357"
+           y="0"
+           sodipodi:role="line"
+           id="tspan90">carnes selectas</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,385 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+    <record id="cat_reses" model="product.category">
+        <field name="name">Reses</field>
+        <field name="parent_id" ref="product.product_category_1"/>
+    </record>
+    <record id="cat_cortes" model="product.category">
+        <field name="name">Cortes</field>
+        <field name="parent_id" ref="product.product_category_1"/>
+    </record>
+    <record id="cat_elaborados" model="product.category">
+        <field name="name">Elaborados</field>
+        <field name="parent_id" ref="product.product_category_1"/>
+    </record>
+    <record id="product_media_res" model="product.template">
+        <field name="name">Media Res</field>
+        <field name="type">product</field>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+        <field name="categ_id" ref="cat_reses"/>
+    </record>
+    <record id="product_aguja" model="product.template">
+        <field name="name">Aguja</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_asado_con_hueso" model="product.template">
+        <field name="name">Asado con hueso</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_aguja_de_primera" model="product.template">
+        <field name="name">Aguja de primera</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_bola_lomo" model="product.template">
+        <field name="name">Bola lomo</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_colita_de_cuadril" model="product.template">
+        <field name="name">Colita de cuadril</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_costeletas" model="product.template">
+        <field name="name">Costeletas</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_cuadrada" model="product.template">
+        <field name="name">Cuadrada</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_cuadril" model="product.template">
+        <field name="name">Cuadril</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_falda" model="product.template">
+        <field name="name">Falda</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_lomo" model="product.template">
+        <field name="name">Lomo</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_matambre" model="product.template">
+        <field name="name">Matambre</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_nalga" model="product.template">
+        <field name="name">Nalga</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_paleta" model="product.template">
+        <field name="name">Paleta</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_peceto" model="product.template">
+        <field name="name">Peceto</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_puchero" model="product.template">
+        <field name="name">puchero</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_recorte_para_picada" model="product.template">
+        <field name="name">recorte para picada</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_tapa_de_asado" model="product.template">
+        <field name="name">tapa de asado</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_tortuga" model="product.template">
+        <field name="name">tortuga</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_vacio" model="product.template">
+        <field name="name">vacio</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_hueso" model="product.template">
+        <field name="name">hueso</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_grasa" model="product.template">
+        <field name="name">grasa</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_cortes"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_variedad_hamburguesas" model="product.template">
+        <field name="name">variedad hamburguesas</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_elaborados"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_albondigas" model="product.template">
+        <field name="name">albondigas</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_elaborados"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_chorizo_mezcla" model="product.template">
+        <field name="name">chorizo mezcla</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_elaborados"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_chorizo_puro_cerdo" model="product.template">
+        <field name="name">chorizo puro cerdo</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_elaborados"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_morcilla" model="product.template">
+        <field name="name">morcilla</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_elaborados"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_salame" model="product.template">
+        <field name="name">salame</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_elaborados"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_salchicha_parrillera" model="product.template">
+        <field name="name">salchicha parrillera</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_elaborados"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_chorizo_de_cordero" model="product.template">
+        <field name="name">chorizo de cordero</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_elaborados"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_carne_picada" model="product.template">
+        <field name="name">carne picada</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_elaborados"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_milanesa_nalga" model="product.template">
+        <field name="name">milanesa nalga</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_elaborados"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_milanesa_cuadrada" model="product.template">
+        <field name="name">milanesa cuadrada</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_elaborados"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_milanesa_peceto" model="product.template">
+        <field name="name">milanesa peceto</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_elaborados"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_milanesa_bola_de_lomo" model="product.template">
+        <field name="name">milanesa bola de lomo</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_elaborados"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_milanesa_de_pollo" model="product.template">
+        <field name="name">milanesa de pollo</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_elaborados"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+    <record id="product_albondigas_de_cordero" model="product.template">
+        <field name="name">albondigas de cordero</field>
+        <field name="type">product</field>
+        <field name="categ_id" ref="cat_elaborados"/>
+        <field name="uom_id" ref="uom.product_uom_kgm"/>
+        <field name="uom_po_id" ref="uom.product_uom_kgm"/>
+        <field eval="False" name="purchase_ok"/>
+        <field eval="True" name="sale_ok"/>
+        <field name="tracking">lot</field>
+    </record>
+</odoo>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+	<record id="base.main_company" model="res.company">
+		<field name="name">Gamaro SA</field>
+		<field name="street">Futaleufu Lote 12</field>
+		<field name="vat">30714560588</field>
+		<field name="l10n_ar_afip_responsibility_type_id" ref="l10n_ar.res_IVARI"/>
+		<field name="state_id" ref="base.state_ar_q"/>
+		<field name="country_id" ref="base.ar"/>
+		<field name="website">https://www.elgrancorte.com.ar</field>
+		<field name="email">info@elgrancorte.com.ar</field>
+	</record>
+</odoo>

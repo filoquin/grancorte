@@ -1,0 +1,4 @@
+[submodule "website_sm_checkout"]
+	path = website_sm_checkout
+	url = git@github.com:filoquin/website_sm_checkout.git
+	branch = 13.0
